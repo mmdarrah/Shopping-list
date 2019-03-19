@@ -31,6 +31,7 @@ input {
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
 	border:none;
+	color: #79bdc6;
 }
 input:focus {
 	outline: none;
