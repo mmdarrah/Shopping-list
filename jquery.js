@@ -17,7 +17,8 @@
 
         $newItem.keypress(function(e){
            if(e.which == 13){
-               addItem();
+               /* addItem(); */
+               alert("test");
            }
        })
 

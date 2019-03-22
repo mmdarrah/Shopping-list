@@ -41,6 +41,7 @@ span {
 	text-align: center;
 	width: 60px;
 	float: right;
+	
 }
 h1 {
 	background-color: #272f32;
@@ -50,15 +51,39 @@ h1 {
 	font-size: 24px;
 	font-weight: normal;
 }
-li {
+li  {
 	background-color: #272f32;
 	height: 60px;
 	line-height: 60px;
 	padding: 0 0 0 20px;
 }
+td {
+	/* background-color: #272f32; */
+	height: 60px;
+	line-height: 60px;
+	padding: 0 0 0 20px;
+	width: 360px;
+	font-size: 1.3em;
+}
+
+#box{
+	height: 13px;
+	text-align: center;
+	width: auto;
+	float: left;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+
+
 li:nth-child(2n){
 	background-color: #455a64;
 }
+
+
+
+
 
 button{
     background-color: #daeaef;
@@ -66,5 +91,16 @@ button{
     border: none;
     font-size: 1.2em;
     color: #263238;
+}
+
+
+#message{
+	display: none;
+	color: #ff3526;
+}
+
+.strike{
+	text-decoration: line-through;
+	background-color: #ff34263a;
 }
 
